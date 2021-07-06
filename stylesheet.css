@@ -1,0 +1,165 @@
+html body {margin: 0;}
+
+.container {
+  width: 1100px;
+  height: 1390px;
+  background: rgb(223, 217, 217);
+  display: flex;
+}
+
+.side-container {
+  width: 280px;
+  height: 1390px;
+  background: tomato;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-logo {
+  width: 260px;
+  height: 107px;
+  border: 1px solid;
+  margin: 5px auto;
+}
+
+
+.side-navi {
+  width: 260px;
+  height: 160px;
+  border: 1px solid;
+  margin: 5px auto;
+}
+
+.navi-list {
+  display: flex;
+  float: right;
+}
+
+.navi-list li {
+  width: 140px;
+  height: 30px;
+  margin: 2px;
+  background: saddlebrown;
+  list-style: none;
+}
+
+.side-form {
+  width:173px;
+  height: 121px;
+  background: bisque;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: auto;
+}
+
+.form-list {
+  display: flex;
+}
+
+.form-list ul {
+  padding: 0;
+  margin: 0;
+}
+
+.form-list li {
+  list-style: none;
+  width: 168px;
+  height: 38px;
+  margin: 1px auto;
+  background: white;
+}
+
+.main {
+  width: 820px;
+  height: 1390px;
+  background: greenyellow;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header {
+  width: 820px;
+  height: 352px;
+  background: burlywood;
+}
+
+.left-column {
+  width: 420px;
+  height: 601px;
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+}
+
+.article {
+  width: 420px;
+  height: 306px;
+  background: blue;
+}
+
+.table {
+  width: 420px;
+  height: 290px;
+  background: skyblue;
+  margin-top: auto;
+}
+
+.right-column {
+  width: 400px;
+  height: 601px;
+  background: beige;
+  display: flex;
+  flex-direction: column;
+}
+
+.rink {
+  width: 400px;
+  height: 280px;
+  display: flex;
+}
+
+.rink ul {
+  flex-wrap: wrap;
+  display: flex;
+  padding: 0;
+  justify-content: center;
+}
+
+.rink li {
+  width: 180px;
+  height: 130px;
+  background: red;
+  list-style: none;
+  margin: 2px;
+}
+
+.tel {
+  width: 400px;
+  height: 179px;
+  margin: auto 0;
+  background: gray;
+}
+
+.footer {
+  width: 820px;
+  height: 407px;
+  background: palevioletred;
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-info {
+  width: 780px;
+  height: 85px;
+  background: peachpuff;
+  align-self: center;
+}
+
+.map {
+  width: 780px;
+  height: 264px;
+  background: black;
+  align-self: center;
+}
